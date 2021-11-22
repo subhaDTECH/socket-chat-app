@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+</head>
+<body class="bg-light">
+    <section class=" chat_section shadow my-4 p-3">
+        <div class="brand">
+            <img src="https://cdn.pixabay.com/photo/2017/05/05/23/39/whatsapp-2288548__340.png" alt="">
+            <h3>chat app</h3>
+            <div class="mass_area d-flex justify-content-between ">
+                <div class="incoming massage" id="inco">
+                   
+                    </div>
+                    
+                   
+
+                    
+
+                <div class="outgoing massage">
+                    
+
+                </div>
+                
+               
+
+
+            </div>
+            <div class="textarea  ">
+                <textarea class="form-control"name="" id="textarea" cols="30" rows="1"placeholder="Write  a massage "></textarea>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+    
+  <script  src="/socket.io/socket.io.js">
+
+  </script>
+    <script src="./client.js">
+
+    </script>
+</body>
+</html>
